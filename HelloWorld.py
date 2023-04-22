@@ -1,5 +1,15 @@
-# Программа, выводящая в консоль текст "Hello, World!"
+# Программа, выводящая в консоль текст переменной text
+# с помощью функции showText
 
 
-print('Hello, World!')
-print('Hello, World!')
+def showText(text):
+    print(text)
+
+text = 'Hello, World!'
+showText(text = text)
+
+text = 'Goodbye, World!'
+showText(text = text)
+
+
+
